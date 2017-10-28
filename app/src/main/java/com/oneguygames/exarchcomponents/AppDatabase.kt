@@ -8,5 +8,4 @@ import android.arch.persistence.room.Room
 object AppDatabase {
 
     val db: Database by lazy { Room.databaseBuilder(App.context(), Database::class.java, "db").build() }
-
 }
